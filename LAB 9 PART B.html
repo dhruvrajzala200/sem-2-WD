@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Lab 9 Part B</title>
+	<style type="text/css">
+		.d1{
+			animation-name: custom_a;
+			animation-duration: 10s;
+			height: 220px;
+			width: 220px;
+			animation-iteration-count: infinite;
+			animation-timing-function: linear;
+		}
+
+        @keyframes custom_a{
+        	0%{
+        		position: absolute;
+        		top:0px ;
+        		left:0px ;
+        		background-color: red;
+        		border:0px solid black;
+        	}
+        	25%{
+        		position: absolute;
+        		top:650px;
+        		left: 0;
+        		background-color: green;
+        		border:10px solid black;
+        	}
+        	50%{
+        		position: absolute;
+        		top:0px;
+        		left: 650px
+        		background-color:yellow;
+        		border:15px solid black;
+        	}
+        	75%{
+        		position: absolute;
+        		top: 650px;
+        		left: 650px;
+        		background-color: pink;
+        		border:20px solid black;
+        	}
+        	100%{
+        		position: absolute;
+        		top: 0px;
+        		left: 0px;
+        		background-color:purple;
+        		border:25px solid black;
+        	}
+        }
+        	.d2{
+        		animation-name: custom_b;
+			    animation-duration: 10s;
+			    height: 220px;
+			    width: 220px;
+			    animation-iteration-count: infinite;
+			    animation-timing-function: linear;
+			    
+        	}
+        	@keyframes custom_b{
+        	0%{
+        		position: absolute;
+        		top:650px ;
+        		left:650px ;
+        		background-color: orchid;
+        		border:0px solid black;
+        		border-radius: 100px;
+        	}
+        	25%{
+        		position: absolute;
+        		top:0px;
+        		left: 650;
+        		background-color: crimson;
+        		border:10px solid black;
+        		border-radius: 80px;
+        	}
+        	50%{
+        		position: absolute;
+        		top:650px;
+        		left: 0px;
+        		background-color: tomato;
+        		border:15px solid black;
+        		border-radius: 60px;
+        	}
+        	75%{
+        		position: absolute;
+        		top: 0px;
+        		left: 0px;
+        		background-color: gray;
+        		border:20px solid black;
+        		border-radius: 40px;
+        	}
+        	100%{
+        		position: absolute;
+        		top: 650px;
+        		left: 650px;
+        		background-color: orange;
+        		border:25px solid black;
+        		border-radius: 20px;
+        	}
+        }
+	</style>
+</head>
+<body>
+<div class="d1"></div>
+<div class="d2"></div>
+</body>
+</html>
